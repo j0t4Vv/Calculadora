@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: lightslategray;
+    font-style: italic;
+    font-weight: 600;
+    font-size: x-large;
+    
+    
+}
+
+div{
+    display: flex;
+    background-color: lightsteelblue;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+label{
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+header{
+    display: block; 
+    text-align: center;
+    color: white;
+    font-size: 26px;
+    padding: 4% 0 4% 0;
+    border-radius: 7px 7px 7px 7px;
+    text-align: center;
+    display: block;
+    background-color: steelblue;
+    background-size: contain;
+    text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+    margin-bottom: 50px;
+}
+
+input{
+
+    margin-bottom: 5px;
+    outline: none;
+    border: none;
+    height: 40px;
+    color: white;
+    background-color: steelblue;
+}
+
+.btn{
+    margin-top: 15px;
+    background-color: darkcyan;
+    color: white;
+    height: 30px;
+    border-radius: 50px;
+    margin-top: 15px;
+    outline: none;
+    height: 50px;
+    width: 30%;
+    align-self: center;
+    font-size: large;
+    border: none;
+
+}
+
+.clear{
+    margin-top: 15px;
+    background-color: darkred;
+    color: white;
+    height: 30px;
+    border-radius: 50px;
+    margin-top: 15px;
+    outline: none;
+    height: 50px;
+    width: 30%;
+    align-self: center;
+    font-size: large;
+    border: none;
+}
+
+.result1{
+    margin-top: 40px;
+    color: white;
+}
+
