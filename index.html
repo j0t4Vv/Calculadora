@@ -22,12 +22,16 @@
 
         <label for="tempo_uso">Tempo de Uso (em meses)</label>
         <input type="text" id="tempo_uso">
-
-        <button onclick="calculo()" >Calcular</button>
-
-        <p id="resultado"></p>
         
-        <p id="resultado2"></p>
+        <button class="btn" onclick="calculo()" >Calcular</button>
+
+        <button class="clear" id="limparCampos">Limpar Campos</button>
+
+        <input type="text" class="result1" id="resultado1" readonly></input>
+        
+        <input type="text" class="result2" id="resultado2" readonly></input>
+
+        
 
     </div>
 
