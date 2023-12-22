@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://www.svgrepo.com/show/315867/calculator.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="calculadora">
+        <header>Calculadora de Depreciação</header>
+
+        <label for="equipamento">Valor Equipamento</label>
+        <input type="text" id="equipamento">
+
+        <label for="sucata">Valor Sucata</label>
+        <input type="text" id="sucata">
+
+        <label for="vida_util">Vida Útil (em anos)</label>
+        <input type="text" id="vida_util">
+
+        <label for="tempo_uso">Tempo de Uso (em meses)</label>
+        <input type="text" id="tempo_uso">
+
+        <button onclick="calculo()" >Calcular</button>
+
+        <p id="resultado"></p>
+        
+        <p id="resultado2"></p>
+
+    </div>
+
+    
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
